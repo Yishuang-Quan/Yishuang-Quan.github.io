@@ -1,0 +1,130 @@
+/* bg */
+body {
+    background-color: #f7e5ea;
+}
+/* navigation bar */
+nav {
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+    color: #4b3036;
+}
+nav a {
+    margin: 0 20px;
+}
+/* headings */
+h1 {
+    font-size: 68px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: #bd4871;
+}
+/* photos */
+.photos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.round {
+    border-radius: 40px;
+}
+/* intro */
+.intro {
+    text-align: center;
+    color: #4b3036;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* sub titles */
+h2 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #bd4871;
+    text-decoration: underline;
+}
+h3 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #c787a8;
+    margin-top: 25px;
+}
+/* About Shawn */
+.selfintro {
+    text-align: center;
+    color: #4b3036;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+.basicinfo {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px;
+    color: #4b3036;
+    font-family: 'Courier New', Courier, monospace;
+    list-style-position: inside;
+}
+.doing {
+    width: fit-content;
+    margin: 10px auto;
+    padding: 10px;
+    color: #4b3036;
+    font-family: 'Courier New', Courier, monospace;
+    border: 3px solid #c787a8;
+    border-style: dotted;
+    border-radius: 15px;
+    list-style-position: inside;
+}
+/* Service */
+.centerpart {
+    font-family: 'Courier New', Courier, monospace;
+    color: #4b3036;
+    list-style-position: inside;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0;
+    list-style-position: inside;
+    text-align: center;
+}
+.centerpart img {
+    display: block;
+    margin: 10px auto; 
+    max-width: 100%;
+    margin-bottom: 30px;
+    border-radius: 40px;
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+}
+/* Appointment */
+.steps {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px;
+    color: #4b3036;
+    font-family: 'Courier New', Courier, monospace;
+    list-style-position: inside;
+}
+.schedule {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: fit-content;
+    font-family: 'Courier New', Courier, monospace;
+    color: #4b3036;
+    margin-bottom: 80px;
+}
+.schedule th,
+.schedule td {
+    border: 1px solid #c7865b;
+    padding: 10px;
+    text-align: center;
+}
+/* ending */
+#ending {
+    font-family: 'Courier New', Courier, monospace;
+    color: #c7865b;
+    text-align: center;
+    font-size: 12px;
+}
