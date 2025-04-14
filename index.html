@@ -2,11 +2,12 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
         <title>
             Date with Shawn
         </title>
     </head>
-    <body>
+    <body id="bg">
         <!--Navigation Bar-->
         <nav>
           <a href="#part1">About Shawn</a>  
@@ -36,6 +37,30 @@
                     <i>Shawn</i> is literally a perfect guy, don't miss this opportunity to heal yourself!
                 </p>
             <br>
+            <h2>
+                Hoverover to change your mood
+            </h2>
+            <div class="colorsss">
+                <p onmouseenter="changecolorPurple()">Feeling Blue</p>
+                <p onmouseenter="changecolorPink()">Falling in Love</p>
+            </div>
+            <br>
+            <h2>
+                Take a breath for a couple of seconds to get ready
+            </h2>
+            <button onclick="increment()">Go!</button>
+            <input type ="number" id="incre" value="0" disabled>
+            <p id="change">Woot woot!</p>
+            <h2>
+                Let's get more excited
+            </h2>
+            <P>What's your lucky number?</P>
+            <input id="numbers" type="number" value="0">
+            <p>Let's type woot woot</p>
+            <input id="woot" type="text">
+            <input type="button" value="Start" onclick="result()">
+            <div id="container">
+            </div>
             </div>
         <br>
         <br>
@@ -114,7 +139,7 @@
             </h3>
                 <ol class="steps">
                     <li>Check <i>Shawn</i>'s weekly schedule</li>
-                    <li>Call <i>Shawn</i>'s agent: +1 8255211157</li>  
+                    <li>Call <button style="display: inline;" onclick="ShowAlert()"><i>Shawn</i>'s agent</button>: <button onmouseover="showMessage()">+1 8255211157</button></li>  
                     <li>Confirm your time and service</li> 
                     <li>Pay with e-transfer 48h in advance </li>
                     <li>Get meeting point information from the agent</li>
